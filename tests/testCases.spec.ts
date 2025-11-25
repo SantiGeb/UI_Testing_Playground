@@ -25,3 +25,9 @@ test ('TC03 Hidden Layers', async ({page}) => {
     await pm.onHomePage().navigateToHiddenLayers()
     await pm.onHiddenLayersPage().validateGreenButtonSingleClickBehavior()
 })
+
+test ('TC04 Load Delay', async ({page}) => {
+    const pm = new PageManager(page)
+    await pm.onHomePage().navigateToLoadDelayPage()
+    await pm.onLoadDelayPage().clickButtonDelay()
+})

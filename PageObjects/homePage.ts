@@ -20,4 +20,9 @@ export class HomePage extends BasePage {
         await this.page.getByRole('link', {name: 'Hidden Layers'}).click()
 
     }
+
+    async navigateToLoadDelayPage() {
+    await this.page.getByRole('link', {name: 'Load Delay'}).click()
+
+    }
 }

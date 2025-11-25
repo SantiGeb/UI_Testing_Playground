@@ -23,8 +23,8 @@ This repository contains an automated UI testing project built with Playwright a
 |----|----------------------------------|--------------|
 | 1  | Dynamic ID                         |🟢 Completed  |
 | 2  | Class Attribute                    |🟢 Completed  |
-| 3  | Hidden Layers                      | ⏳ Pending   |
-| 4  | Load Delay                         | ⏳ Pending   |
+| 3  | Hidden Layers                      |🟢 Completed  |
+| 4  | Load Delay                         |🟢 Completed  |
 | 5  | AJAX Data                          | ⏳ Pending   |
 | 6  | Client Side Delay                  | ⏳ Pending   |
 | 7  | Click                              | ⏳ Pending   |
@@ -46,8 +46,8 @@ This repository contains an automated UI testing project built with Playwright a
 | 23 | Auto Wait                          | ⏳ Pending   |
 
 **Total Planned:** 23  
-**Completed:** 0  
-**In Progress:** 23  
+**Completed:** 4  
+**In Progress:** 19  
 
 ## ⚡ Quick Start
 ```bash
