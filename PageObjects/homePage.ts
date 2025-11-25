@@ -25,4 +25,14 @@ export class HomePage extends BasePage {
     await this.page.getByRole('link', {name: 'Load Delay'}).click()
 
     }
+
+    async navigateToAjaxData() {
+    await this.page.getByRole('link', {name: 'AJAX Data'}).click()
+
+    }
+
+    async navigateToClientSideDelay() {
+    await this.page.getByRole('link', {name: 'Client Side Delay'}).click()
+
+    }
 }

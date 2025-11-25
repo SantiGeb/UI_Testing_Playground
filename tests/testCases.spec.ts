@@ -31,3 +31,15 @@ test ('TC04 Load Delay', async ({page}) => {
     await pm.onHomePage().navigateToLoadDelayPage()
     await pm.onLoadDelayPage().clickButtonDelay()
 })
+
+test ('TC05 Ajax Data', async ({page}) =>{
+    const pm = new PageManager(page)
+    await pm.onHomePage().navigateToAjaxData()
+    await pm.onAjaxDataPage().buttonClickAjaxRequest()
+})
+
+test ('TC06 Client Side Delay', async ({page}) => {
+    const pm = new PageManager(page)
+    await pm.onHomePage().navigateToClientSideDelay()
+    await pm.onClientSideDelayPage().clickClientSideButton()
+})
