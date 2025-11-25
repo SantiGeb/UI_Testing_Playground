@@ -7,21 +7,7 @@ export class BasePage {
         this.page = page;
     }
 
-    async safeClick(locator: Locator) {
-        await locator.waitFor({state: 'visible'});
-        await locator.click();
-    }
-
     async scrollIntoView(locator: Locator) {
         await locator.scrollIntoViewIfNeeded();
-    }
-
-    async typeText(locator: Locator, text: string) {
-        await locator.fill('');
-        await locator.type(text);
-    }
-
-    async getText(locator: Locator){
-        return locator.innerText();
     }
 }

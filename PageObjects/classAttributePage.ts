@@ -8,8 +8,6 @@ export class ClassAttributePage extends BasePage {
     }
 
     async clickBlueButton() {
-        await this.safeClick(
-        this.page.locator('.btn-primary')
-        )
+    await this.page.locator('.btn-primary')
     }
 }

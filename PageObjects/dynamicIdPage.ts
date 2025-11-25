@@ -8,8 +8,6 @@ export class DynamicIdPage extends BasePage {
     }
 
     async clickDynamicButton() {
-        await this.safeClick(
-        this.page.getByRole('button', {name: 'Button with Dynamic ID'})
-        )
+        await this.page.getByRole('button', {name: 'Button with Dynamic ID'})
     }
 }

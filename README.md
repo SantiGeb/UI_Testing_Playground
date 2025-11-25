@@ -150,6 +150,6 @@ The project aims to complete all **23 official modules** of UI Testing Playgroun
 ## 📬 Contact
 **Author:** Santiago Garza  
 **Role:** QA Engineer – Manual & Automation  
-GitHub: <[your link](https://github.com/SantiGeb)>  
-LinkedIn: <[your link](https://www.linkedin.com/in/santiago-g-4b4564149/)>  
+GitHub: <[SantiGeb](https://github.com/SantiGeb)>  
+LinkedIn: <[SantiagoGarza](https://www.linkedin.com/in/santiago-g-4b4564149/)>  
 Email: <garzaestradasantiago@gmail.com>

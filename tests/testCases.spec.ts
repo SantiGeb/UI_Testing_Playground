@@ -21,5 +21,7 @@ test ('TC02 Class Attribute', async ({page}) => {
 })
 
 test ('TC03 Hidden Layers', async ({page}) => {
-    
+    const pm = new PageManager(page)
+    await pm.onHomePage().navigateToHiddenLayers()
+    await pm.onHiddenLayersPage().validateGreenButtonSingleClickBehavior()
 })
