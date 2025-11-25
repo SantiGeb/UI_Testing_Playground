@@ -1,15 +1,15 @@
 import { Page } from '@playwright/test'
 import { BasePage } from '../PageObjects/basePage'
 
-export class DynamicIdPage extends BasePage {
+export class ClassAttributePage extends BasePage {
 
     constructor(page: Page) {
-      super(page)  
+        super(page)
     }
 
-    async clickDynamicButton() {
+    async clickBlueButton() {
         await this.safeClick(
-        this.page.getByRole('button', {name: 'Button with Dynamic ID'})
+        this.page.locator('.btn-primary')
         )
     }
 }
