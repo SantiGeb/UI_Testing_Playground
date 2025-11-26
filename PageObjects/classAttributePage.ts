@@ -4,10 +4,10 @@ import { BasePage } from '../PageObjects/basePage'
 export class ClassAttributePage extends BasePage {
 
     constructor(page: Page) {
-        super(page)
+        super(page);
     }
 
     async clickBlueButton() {
-    await this.page.locator('.btn-primary')
+    await this.page.locator('.btn-primary');
     }
 }

@@ -10,4 +10,10 @@ export class BasePage {
     async scrollIntoView(locator: Locator) {
         await locator.scrollIntoViewIfNeeded();
     }
+
+    async validatePageTitle(expectedTitle: string) {
+        const titleLocator = this.page.locator(`h3:has-text("${expectedTitle}")`);
+        await expect(titleLocator).toBeVisible();
+    }
+
 }

@@ -21,15 +21,15 @@ This repository contains an automated UI testing project built with Playwright a
 
 | #  | UI Testing Playground Module     | Status       |
 |----|----------------------------------|--------------|
-| 1  | Dynamic ID                         |🟢 Completed  |
-| 2  | Class Attribute                    |🟢 Completed  |
-| 3  | Hidden Layers                      |🟢 Completed  |
-| 4  | Load Delay                         |🟢 Completed  |
-| 5  | AJAX Data                          |🟢 Completed  |
-| 6  | Client Side Delay                  |🟢 Completed  |
-| 7  | Click                              | ⏳ Pending   |
-| 8  | Text Input                         | ⏳ Pending   |
-| 9  | Scrollbars                         | ⏳ Pending   |
+| 1  | Dynamic ID                         | 🟢 Completed |
+| 2  | Class Attribute                    | 🟢 Completed |
+| 3  | Hidden Layers                      | 🟢 Completed |
+| 4  | Load Delay                         | 🟢 Completed |
+| 5  | AJAX Data                          | 🟢 Completed |
+| 6  | Client Side Delay                  | 🟢 Completed |
+| 7  | Click                              | 🟢 Completed |
+| 8  | Text Input                         | 🟢 Completed |
+| 9  | Scrollbars                         | 🟢 Completed |
 | 10 | Dynamic Table                      | ⏳ Pending   |
 | 11 | Verify Text                        | ⏳ Pending   |
 | 12 | Progress Bar                       | ⏳ Pending   |
@@ -46,8 +46,8 @@ This repository contains an automated UI testing project built with Playwright a
 | 23 | Auto Wait                          | ⏳ Pending   |
 
 **Total Planned:** 23  
-**Completed:** 6  
-**In Progress:** 17  
+**Completed:** 9 
+**In Progress:** 14  
 
 ## ⚡ Quick Start
 ```bash

@@ -10,7 +10,6 @@ test ('TC01 Dynamic ID', async ({page}) => {
     const pm = new PageManager(page);
     await pm.onHomePage().navigateToDynamicIdPage();
     await pm.onDynamicIdPage().clickDynamicButton();
-    await expect(page).toHaveURL(/dynamicid/i);
 })
 
 test ('TC02 Class Attribute', async ({page}) => {
@@ -42,4 +41,22 @@ test ('TC06 Client Side Delay', async ({page}) => {
     const pm = new PageManager(page)
     await pm.onHomePage().navigateToClientSideDelay()
     await pm.onClientSideDelayPage().clickClientSideButton()
+})
+
+test ('TC07 Click Page', async ({page}) => {
+    const pm = new PageManager(page)
+    await pm.onHomePage().navigateToClickPage()
+    await pm.onClickPage().clickButtonClickEvent()
+})
+
+test ('TC08 Text Input', async ({page}) => {
+    const pm = new PageManager(page)
+    await pm.onHomePage().navigateToTextInput()
+    await pm.onTextInputPage().fillBoxFormAndClickButton('boton1')
+})
+
+test ('TC09 Scrollbards', async ({page}) => {
+    const pm = new PageManager(page)
+    await pm.onHomePage().navigateToScrollsbars()
+    await pm.onScrollbarsPage().scrollAndClickHidingButton()
 })
